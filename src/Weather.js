@@ -12,7 +12,11 @@ export default function Weather(props) {
       </div>
 
       <small>
-        <a href="https://github.com/r3llie/r3wAA" target="blank" className="open-source">
+        <a
+          href="https://github.com/r3llie/react-weather"
+          target="blank"
+          className="open-source"
+        >
           Open source code
         </a>
         by Gabrielle Hailstone
