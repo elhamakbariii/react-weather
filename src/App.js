@@ -1,14 +1,10 @@
-import './App.css';
-import Weather from "./Weather"
+import "./App.css";
+import Weather from "./Weather";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <div className="App">
-        <Weather />
-      </div>
+      <Weather />
     </div>
   );
 }
-
-export default App;
