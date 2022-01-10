@@ -19,7 +19,10 @@ export default function Weather(props) {
         >
           Open source code
         </a>
-        by Gabrielle Hailstone
+        by{" "}
+        <a href="https://linktr.ee/r3llie" target="_blank" rel="noreferrer">
+          @r3llie
+        </a>
       </small>
     </div>
   );
