@@ -40,6 +40,8 @@ export default function Search(props) {
             <input
               type="search"
               className="form-control"
+              placeholder="Enter a city..."
+              autoFocus="on"
               onChange={updateCity}
             />
           </div>
@@ -56,7 +58,7 @@ export default function Search(props) {
       <div className="City">
         <h1>{message}</h1>
         <ul>
-          <li>Last updated:4:11pm</li>
+          <li>Last updated 16:03</li>
           <li className="description-weather">{description}</li>
         </ul>
       </div>

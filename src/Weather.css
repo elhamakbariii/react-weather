@@ -1,12 +1,12 @@
 .App .Weather {
-  max-width: 800px;
+  max-width: 650px;
   margin: 30px auto;
   display: block;
 }
 .App .weather-app {
   display: block;
   padding: 25px;
-  padding-bottom: 30px;
+  padding-bottom: 15px;
   border: solid 1px #d9dad7;
   border-radius: 5px;
   background-color: white;
