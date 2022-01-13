@@ -6,7 +6,7 @@ export default function Weather(props) {
   return (
     <div className="Weather">
       <div className="weather-app">
-        <Search />
+        <Search defaultCity="New York" />
 
         <div className="weather-forecast"></div>
       </div>
