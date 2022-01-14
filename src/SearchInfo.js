@@ -1,5 +1,6 @@
 import React from "react";
 import FormattedDate from "./FormattedDate";
+import WeatherTemp from "./WeatherTemp";
 
 export default function SearchInfo(props) {
   return (
@@ -25,10 +26,7 @@ export default function SearchInfo(props) {
           />
 
           <span className="temp">
-            <span className="temp-number">
-              {Math.round(props.data.temperature)}
-            </span>
-            <span className="fahrenheit">°F</span>
+            <WeatherTemp fahrenheit={props.data.temperature}/>
           </span>
         </div>
 
