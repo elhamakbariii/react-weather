@@ -26,7 +26,7 @@ export default function SearchInfo(props) {
           />
 
           <span className="temp">
-            <WeatherTemp celsius={props.data.temperature}/>
+            <WeatherTemp celsius={props.data.temperature} />
           </span>
         </div>
 

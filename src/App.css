@@ -31,3 +31,6 @@
   text-transform: capitalize;
 }
 
+.App a {
+  text-decoration: none;
+}
