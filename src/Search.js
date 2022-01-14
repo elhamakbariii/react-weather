@@ -22,7 +22,7 @@ export default function Search(props) {
 
   function Search() {
     let apiKey = "6f578b96aa9505bcce148ac22cb85794";
-    let units = "imperial";
+    let units = "metric";
     let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=${units}`;
     axios.get(apiUrl).then(showWeather);
   }

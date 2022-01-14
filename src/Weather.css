@@ -29,6 +29,7 @@
   position: relative;
   bottom: 40px;
   left: -2px;
+  font-size: smaller;
 }
 
 .App .main-icon {
