@@ -1,6 +1,7 @@
 import React from "react";
 import FormattedDate from "./FormattedDate";
 import WeatherTemp from "./WeatherTemp";
+import WeatherIcon from "./WeatherIcon";
 
 export default function SearchInfo(props) {
   return (
@@ -19,11 +20,8 @@ export default function SearchInfo(props) {
 
       <div className="row">
         <div className="col-7">
-          <img
-            src={props.data.iconUrl}
-            alt={props.data.description}
-            className="main-icon"
-          />
+            <WeatherIcon code={props.data.icon} />
+          
 
           <span className="temp">
             <WeatherTemp fahrenheit={props.data.temperature} />

@@ -32,11 +32,6 @@
   font-size: smaller;
 }
 
-.App .main-icon {
-  position: relative;
-  bottom: 13px;
-}
-
 .App .weather-forecast {
   text-align: center;
 }
