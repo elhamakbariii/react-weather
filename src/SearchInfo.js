@@ -20,7 +20,7 @@ export default function SearchInfo(props) {
 
       <div className="row">
         <div className="col-7">
-            <WeatherIcon code={props.data.icon} />
+            <WeatherIcon code={props.data.icon} size={83} />
           
 
           <span className="temp">

@@ -32,25 +32,6 @@
   font-size: smaller;
 }
 
-.App .weather-forecast {
-  text-align: center;
-}
-.App .weather-forecast-date {
-  font-size: 16px;
-  color: #323643;
-  opacity: 0.7;
-}
-.App .weather-forecast-temp {
-  font-size: 13px;
-}
-.App .weather-forecast-low {
-  opacity: 0.5;
-  font-family: "Chivo", sans-serif;
-}
-.App .weather-forecast-high {
-  font-weight: bold;
-  font-family: "Chivo", sans-serif;
-}
 .App .form-control {
   padding: 10px;
   margin-top: 10px;
