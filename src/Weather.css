@@ -15,7 +15,7 @@
 .App .temp {
   position: relative;
   left: 8px;
-  bottom: -3px;
+  bottom: 10px;
   font-family: "Chivo", sans-serif;
   font-size: x-large;
 }
@@ -27,7 +27,7 @@
 .App .fahrenheit {
   color: grey;
   position: relative;
-  bottom: 40px;
+  bottom: 41px;
   left: -2px;
   font-size: smaller;
 }
